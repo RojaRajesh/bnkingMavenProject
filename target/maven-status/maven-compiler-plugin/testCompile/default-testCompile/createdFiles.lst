@@ -1,0 +1,9 @@
+com\bankingmavenproject\utilities\ReadConfig.class
+com\bankingmavenproject\utilities\XUtils.class
+com\bankingmavenproject\testcases\Tc_AddCustomer_003.class
+com\bankingmavenproject\utilities\Reporting.class
+com\bankingmavenproject\pageobjects\AddCustomerPage.class
+com\bankingmavenproject\pageobjects\LoginPage.class
+com\bankingmavenproject\testcases\Tc_LoginTest_002.class
+com\bankingmavenproject\testcases\Tc_LoginTest_001.class
+com\bankingmavenproject\testcases\BaseClass.class

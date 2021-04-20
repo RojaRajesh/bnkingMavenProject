@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SmokeTests" verbose="1" >   
+ <test thread-count="5" name="Test"/>
+<listeners>
+<listener class-name="com.bankingmavenproject.utilities.Reporting"/>
+
+
+
+
+</listeners>
+<test name="BankingApp Test">
+<parameter name="browser" value="chrome"/>
+<classes>
+<!--  <class name="/BnkingMavenProject/src/test/java/com/bankingmavenproject/testcases/Tc_LoginTest_001"/>-->
+<class name="/BnkingMavenProject/src/test/java/com/bankingmavenproject/testcases/Tc_LoginTest_002"/>
+
+
+</classes>
+
+
+</test>
+
+
+</suite>
